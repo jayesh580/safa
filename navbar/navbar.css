@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Droid+Serif:400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|PT+Serif:400,400i,700,700i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext');
+/* .bor{ */
+	/* border: 1px solid red; */
+/* } */
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #CA965C;
+    bottom: 40px;
+    right: 59px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 22px;
+    transition: 0.5s linear;
+}
+.gotopbtn:hover{
+    color: #ffffff;
+    background: #EEC373;
+}
+.font1{
+    font-family: "Courgette", sans-serif; 
+    font-size:20px;
+    text-transform: uppercase;
+}
+.font2{
+    font-family: "PTSerif";  
+    text-transform: uppercase;
+    font-size: 0.857em;
+    line-height: 1.25em;
+    font-weight: 700;
+    letter-spacing: 3.14px;
+}
+.font3{
+    font-family: "Courgette", sans-serif;  
+    text-transform: uppercase;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    font-weight: 400;
+    /* letter-spacing: 3.14px; */
+}
+.font4{
+    font-family: "Courgette", sans-serif;  
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 400;
+    /* letter-spacing: 3.14px; */
+}
+.font5{
+    font-family: "Courgette", sans-serif;  
+    color: #332e2e;
+    font-size: 1.429em;
+    line-height: 1.5em;
+}
+@font-face {
+	font-family: myFnth;
+	/* src: url(font/FuturaMediumBT[1].ttf); */
+	src: url(../font/FuturaMediumBT[1].ttf);
+  }
+  .font6{
+    font-family: myFnth; 
+}
+.card-title{
+    font-family: myFnth;
+}
+.headcolor{
+    background-color: #CA965C;
+}
+.bor3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bor4{
+    position: relative;
+}
+.nav-item .nav-link{
+    display: block;
+    line-height: 36px;
+    margin: 10px 20px;
+    color: #ffffff;
+    transition: 0.15s;
+    font-family: "PTSerif"; 
+    font-size: 0.928em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+
+}
+.nav-item .nav-link:hover{color: #CA965C;}
+.navbar-scroll .nav-item .nav-link{color: #ffffff;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.header-inner{position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 3;
+    background-color: transparent;
+    }
+
+.navbar-scroll{
+    background-color: #996443;
+    padding: 0;
+    position: fixed;
+    top:0;
+    z-index: 99;
+    box-shadow:0px 1px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.6s;
+    }
+/* nav{ */
+    /* height: 10vh; */
+    /* position:fixed; */
+    /* transition: all 0.5s; */
+    /* background-color: #ca965c; */
+    /* background: #ca965c; */
+/* } */
+/* .navul{
+    padding:  0 4em; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 80%;
+    margin: auto;
+}
+.bg-light1{
+    background-color: #ca965c;
+}
+nav a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.navbar-scroll{
+    background-color: yellow;
+}
+#dynamic{
+    background-color: yellow;
+}
+.newClass {
+    background-color:rgb(255, 0, 0);
+  } */

@@ -1,0 +1,39 @@
+.about{
+    width: 100%;
+    height: 100vh;
+}
+.bg_about{
+    height: 100%;
+    width: 100%;
+    background-image: url('contactbg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.caro::after{
+    border: 3px solid #ffffff;
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+    top: 2.5%;
+}
+.bor1{
+    border: 3px solid #CA965C; 
+}
+.btn-sqare{
+    margin-top: 0px;
+    background-color: #CA965C;
+    padding: 2.4em 3.77em;
+    transition: 0.5s linear;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2857em;
+    font-size: 0.857em;
+    letter-spacing: 3.4px;
+}
+.btn-sqare:hover{
+    background-color: #EEC373;
+    color: #ffffff;
+}

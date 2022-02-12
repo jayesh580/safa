@@ -1,0 +1,50 @@
+.contact{
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url('spring-greeting.jpg');
+	background-size: cover;
+	background-position: center;
+    padding-bottom: 100px;
+}
+.contact_box{
+    margin: 10px;
+}
+
+.inp1{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.inp2{
+    background: #000;
+    color: #fff;
+    border: none;
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+.inp2_txtarea{
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+.btnw{
+    width: 50%;
+}
+.map_box{
+    /* border: 3px solid #CA965C; */
+    margin: 10px 0;
+    width: 100%;
+}
+

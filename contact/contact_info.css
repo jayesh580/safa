@@ -1,0 +1,82 @@
+.contact_info{
+    width: 100%;
+    height: 80vh;
+}
+.cntr{
+    width: 100%;
+    height: 234px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.crd{
+    position: relative;
+    background: #ca965c;
+    padding: 0;
+    margin: 0 ;
+    width: calc(33%-20px);
+    height: 225px;
+    display: flex;
+}
+.card-icon{
+    position: absolute;
+    display: block;
+    background: #EEC373;
+    color: white;
+    width: 7.2em;
+    height: 7.2em;
+    line-height: 7.2em;
+    margin: 0 auto;
+    top: -30%;
+    margin-bottom: -2.1em;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+.card-icon::before{
+    font-size: 2.66em;
+}
+/* .card-icon:hover{
+    background: #ca965c;
+    transform: scale(1.3);
+} */
+.crd:hover .card-icon{
+    background: #ca965c;
+    /* background: #F4DFBA; */
+    transform: scale(1.3);
+}
+.crd h3{
+    position: absolute;
+    top: 30%;
+}
+.crd p{
+    width: 70%;
+    font-family: myFnth;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:767px){
+    .cntr{
+        max-width: 50%;
+        height: 100%;
+    }
+    .cntr1{
+        position: relative;
+        top: 82px;
+    }
+    .crd p{
+        margin: 0 30px;
+    }
+    .contact_info{
+        height: 160vh;
+        height: 95vh;
+    }
+}

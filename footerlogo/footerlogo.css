@@ -1,0 +1,31 @@
+.logo-zx img{
+    height: 200px;
+    width: 300px;
+}
+.social-icon-zx{
+    margin-top: 60px;
+}
+.social-icon-zx span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 7px;
+    background-color: #ca965c;
+    color: #ffffff;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+.social-icon-zx a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-icon-zx span:hover{
+    background-color: #ffffff;
+    border: 2px solid #ca965c;
+}
+.social-icon-zx span:hover a{ 
+    color: #ca965c;
+}
